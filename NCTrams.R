@@ -1,0 +1,5 @@
+NorthCote. <- read.csv("~/Desktop/Internship/NorthCote .csv")
+names(NorthCote.) <- c("Age","Gender","Id","Relationship","PostCode","District","City","ModeOfTransport")
+NCTram <- subset(NorthCote., ModeOfTransport = "Tram")
+View(NCTram)
+NCTram <- subset(NorthCote., ModeOfTransport == "Tram")

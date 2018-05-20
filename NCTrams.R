@@ -3,3 +3,4 @@ names(NorthCote.) <- c("Age","Gender","Id","Relationship","PostCode","District",
 NCTram <- subset(NorthCote., ModeOfTransport = "Tram")
 View(NCTram)
 NCTram <- subset(NorthCote., ModeOfTransport == "Tram")
+View(NCTrain)
